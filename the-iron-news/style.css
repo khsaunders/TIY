@@ -1,12 +1,19 @@
 /*banner*/
 .nav {
+  display: flex;
   background-color: #919191;
   font-weight: bold;
   font-style: normal;
-  font-family: sans-serif;
-  padding: 20px 30px
+  font-family: Tahoma;
+  padding: 5px 15px 5px 25px;
 }
 
 body {
   background-color: #CECECE;
+}
+
+#logo {
+  border-style: solid;
+  border-color: white;
+  padding: 5px 5px 5px 5px;
 }
