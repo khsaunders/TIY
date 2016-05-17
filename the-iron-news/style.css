@@ -1,0 +1,12 @@
+/*banner*/
+.nav {
+  background-color: #919191;
+  font-weight: bold;
+  font-style: normal;
+  font-family: sans-serif;
+  padding: 20px 30px
+}
+
+body {
+  background-color: #CECECE;
+}
