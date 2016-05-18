@@ -2,6 +2,8 @@
 
 a:link{
   text-decoration: none;
+  display: inline-block;
+  color: black;
 }
 
 li a {
@@ -17,7 +19,8 @@ li a {
   font-style: normal;
   font-family: Tahoma;
   padding: auto;
-  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 /* body and stuff */
@@ -27,16 +30,17 @@ body {
   font-family: Tahoma;
   font-size: 14px;
   margin-left: auto;
+  font-style: bold;
 }
 
-/* small "I" */
+/* small I */
 
 #logo {
   color: white;
-  border-style: solid;
-  border-color: white;
-  padding: 3px 6px 3px 6px;
+  border: 2px solid  white;
+  padding: 6px 8px 6px 8px;
   margin: 7px;
+  text-align: center;
   }
 
 /* links for the navbar */
@@ -63,6 +67,7 @@ body {
 ul{
   list-style: none;
   text-decoration: none;
+  font-style: bold;
 }
 
 /* search bar in footer */
@@ -72,5 +77,5 @@ ul{
   height: 20px;
   text-align: center;
   color: #8B8B8B;
-  margin-left: 250px;
+  margin-left: 400px;
 }
