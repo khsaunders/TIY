@@ -6,15 +6,12 @@ a:link{
   color: black;
 }
 
-li a {
-  display: inline-block;
-  text-decoration:none;
-}
+
 
 /* navbar title and banner */
 .nav {
   display: flex;
-  background-color: #919191;
+  background-color: #87899F;
   font-weight: bold;
   font-style: normal;
   font-family: Tahoma;
@@ -26,7 +23,7 @@ li a {
 /* body and stuff */
 
 body {
-  background-color: #DFDFDF;
+  background-color: #DEDEE3;
   font-family: Tahoma;
   font-size: 14px;
   margin-left: auto;
@@ -63,6 +60,7 @@ body {
   color: #8B8B8B;
 }
 
+/* eliminates bullet points in lists*/
 
 ul{
   list-style: none;
