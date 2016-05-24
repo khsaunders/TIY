@@ -25,7 +25,7 @@ var westeros = ['Jon', 'Sansa', 'Brienne', 'Hodor'],
 
   var westerosHogwarts = westeros.concat(hogwarts);
 
-  console.log(bookFandom);
+  console.log(westerosHogwarts);
 
       [ 'Jon', 'Sansa', 'Brienne', 'Hodor', 'Hermione', 'Ron', 'Harry', 'Hagrid' ]
 
