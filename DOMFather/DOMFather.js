@@ -1,12 +1,48 @@
-// var myHeading = document.querySelector = ('h1').style.color= #E21E1E;
-// myHeading.innerHTML= 'About Me'
+  // var myHeading = document.querySelector = ('h1').style.color= #E21E1E;
+  // myHeading.innerHTML= 'About Me'
 
-//Using JavaScript, change the body's tag style so it has a font-family of the sans-serif font stack of your choice.
-document.querySelector("body").style.fontFamily = "sans-serif";
+  //Using JavaScript, change the body's tag style so it has a font-family of the sans-serif font stack of your choice.
 
-document.querySelector("li").style.color = #E21E1E;
+document.querySelector('body').style.fontFamily = "sans-serif";
 
-//replace spans with own information
+var img = document.createElement('img');
+img.setAttribute('src', 'http://dreamatico.com/data_images/kitten/kitten-1.jpg');
+img.setAttribute('alt', 'picture' );
+img.setAttribute('width', '50%');
+img.setAttribute('height', '90%');
+document.body.appendChild(img);
+
+  // document.querySelector("li").style.color ='red';
+
+  // first attempt at loop for text color
+  // if{
+  //   (document.querySelector("li"))
+  //     print(.style.color = 'red';)
+  // }
+
+
+  //second attemp at loop for text color
+  // var colorStyle = document.getElementById()
+  // if (colorStyle) {
+  //   document.querySelector("li").style.color = 'red';
+  // }
+
+  // third attempt at loop for text color
+  // if (fullName) {
+  //   document.querySelector("li").style.color = 'red';
+  // }
+  //
+  // else if (hometown){
+  //   document.querySelector("li").style.color = 'red';
+  // }
+  // else if (movie){
+  //   document.querySelector("li").style.color = 'red';
+  // }
+  // else (food){
+  //   document.querySelector("li").style.color = 'red';
+  // }
+
+  //replace spans with own information
 var fullName = document.getElementById('fullname');
 fullName.innerHTML = 'Kaitlin Saunders';
 
@@ -21,3 +57,21 @@ food.innerHTML = 'pizzaaaa';
 
 //Put each goal in JS to keep track of stuff
 //change class then make it color red.
+
+// document.querySelector("li").style.color ='red';
+
+var listThings = document.querySelectorAll("li");
+
+for (var i=0; i <= listThings.length; i ++){
+  listThings[i].style.color = 'red'; //"and these are the things we want you to do"
+  listThings[i].className = 'listitems';
+};
+
+//for says "for this thing..." parentheses give it parameters. we give it a variable via i.
+
+// var img = document.createElement("img");
+// img.setAttribute( 'src', 'https://www.facebook.com/photo.php?fbid=891850564159540&set=t.590813030&type=3&theater');
+// img.setAttribute("alt", 'picture' );
+// img.setAttribute("width", '25%');
+// img.setAttribute("height", '60%');
+// document.body.appendChild('img');
