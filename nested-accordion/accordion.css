@@ -54,17 +54,17 @@ table {
 /*********END RESET*/
 
 #wrapper{
-  width: 50em;
+  width: 60em;
   margin: auto;
   padding: 5em;
 
 }
 
 
-.fa-arrow-right{
+/*.fa-arrow-right{
   display: inline-block;
   color: #47a3da;
-}
+}*/
 
 h1{
   font-family: lato;
@@ -78,13 +78,18 @@ h2{
   font-family: lato;
   color: #47a3da;
   font-size: 1.7em;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: solid #DDD 1px;
 
 }
 
 p{
   font-family: lato;
   color: #888;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.4px;
+  font-weight: 1px;
+  padding: 10px;
 }
 
 ul{
@@ -94,9 +99,26 @@ ul{
 
 }
 
-/* Arrow Bullet Points
 
-/*li:before{
+/* Arrow Bullet Points*/
+
+/*li.paragraph:before{
   font-family: FontAwesome;
-  content: '\f061'
+  content: '\f18e'
 }*/
+
+li.small-list:before{
+  font-family: FontAwesome;
+  content: '\f18e';
+  color: #DDD;
+  margin-left: 50px;
+  letter-spacing: 3px;
+
+}
+
+li.main-list:before{
+  font-family: FontAwesome;
+  content: '\f061';
+  color: #47a3da;
+  display: relative;
+}
