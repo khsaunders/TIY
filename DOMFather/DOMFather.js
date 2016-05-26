@@ -6,7 +6,7 @@
 document.querySelector('body').style.fontFamily = "sans-serif";
 
 var img = document.createElement('img');
-img.setAttribute('src', 'http://dreamatico.com/data_images/kitten/kitten-1.jpg');
+img.setAttribute('src', 'https://scontent-atl3-1.xx.fbcdn.net/t31.0-8/12030373_1071009966243955_1886191460089721634_o.jpg');
 img.setAttribute('alt', 'picture' );
 img.setAttribute('width', '50%');
 img.setAttribute('height', '90%');
