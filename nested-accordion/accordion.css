@@ -71,6 +71,15 @@ h1{
   color: #47a3da;
   font-size: 2em;
   padding-bottom: 15px;
+	font-weight: 400px;
+
+}
+
+.list-header{
+	font-family: FontAwesome;
+	content: '\f061';
+	color: #47a3da;
+	display: inline-block;;
 
 }
 
@@ -137,10 +146,24 @@ h2{
 
 }
 
-input:checked + .small-list{
+/*input:checked + .small-list{
 	font-family: FontAwesome;
   content: '\f18e';
   color: #DDD;
   margin-left: 50px;
   letter-spacing: 3px;
+}*/
+
+.revealList{
+	font-family: lato;
+	color: #47a3da;
+	font-size: 1.3em;
+	/*padding-bottom: 15px;
+	padding-top: 10px;*/
+ 	background: none;
+ 	padding: 0;
+	border: none;
+	width: 60em;
+	text-align: left;
+	outline: 0;
 }
