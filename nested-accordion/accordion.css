@@ -78,13 +78,15 @@ h2{
   font-family: lato;
   color: #47a3da;
   font-size: 1.7em;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   padding-top: 10px;
   border-bottom: solid #DDD 1px;
 
+
 }
 
-p{
+.paragraphs{
+	display: none;
   font-family: lato;
   color: #888;
   letter-spacing: 1.4px;
@@ -92,10 +94,20 @@ p{
   padding: 10px;
 }
 
-ul{
+ .paragraphs2{
+	display: inline-block;
+  font-family: lato;
+  color: #888;
+  letter-spacing: 1.4px;
+  font-weight: 1px;
+  padding: 10px;
+}
+
+.heading-list{
   list-style: none;
   font-family: lato;
   color: #47a3da;
+	padding-top: 10px;
 
 }
 
@@ -107,18 +119,28 @@ ul{
   content: '\f18e'
 }*/
 
-li.small-list:before{
+.small-list{
   font-family: FontAwesome;
   content: '\f18e';
   color: #DDD;
   margin-left: 50px;
   letter-spacing: 3px;
+	display: none;
 
 }
 
-li.main-list:before{
+.main-list{
   font-family: FontAwesome;
   content: '\f061';
   color: #47a3da;
   display: relative;
+
+}
+
+input:checked + .small-list{
+	font-family: FontAwesome;
+  content: '\f18e';
+  color: #DDD;
+  margin-left: 50px;
+  letter-spacing: 3px;
 }
