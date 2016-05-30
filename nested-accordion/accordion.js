@@ -7,7 +7,31 @@ console.log(buttonClick);
 
  document.getElementByClass("button").addEventListener('click', function ("revealList")) */
 
-var list = document.getElementByClass("revealList");
-var i
+//Second Attempt
 
-for
+// var list = document.getElementById("execute");
+// var i
+//
+// for (i=0; i < list.length; i++){
+//   list[i].onClick = function(){
+//     this.classList.toggle ("show");
+//
+//   }
+// }
+
+var button = document.querySelector('execute')
+var reveal = button.push(document.querySelector('paragraphs'))
+
+button.addEventListener("click", function  (){
+
+// button.addEventListener('click', function());
+// for (i = 0; i < 'headers'.length; i++){
+//   console.log(document.querySelector('paragraphs'))
+
+  // button.addEventListener("click", function  (){
+  // 	// document.querySelector("paragraphs");
+  //   console.log()
+
+
+  });
+}

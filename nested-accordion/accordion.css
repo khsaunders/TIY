@@ -95,12 +95,12 @@ h2{
 }
 
 .paragraphs{
-	display: none;
+	visibility: hidden;
   font-family: lato;
   color: #888;
-  letter-spacing: 1.4px;
+  /*letter-spacing: 1.4px;
   font-weight: 1px;
-  padding: 10px;
+  padding: 10px;*/
 }
 
  .paragraphs2{
@@ -138,11 +138,22 @@ h2{
 
 }
 
+.small-list:show{
+  font-family: FontAwesome;
+  content: '\f18e';
+  color: #DDD;
+  margin-left: 50px;
+  letter-spacing: 3px;
+
+}
+
 .main-list{
   font-family: FontAwesome;
   content: '\f061';
   color: #47a3da;
   display: relative;
+	list-style: none;
+	border: solid red 1px;
 
 }
 
@@ -154,7 +165,8 @@ h2{
   letter-spacing: 3px;
 }*/
 
-.revealList{
+/*Thought this was necessary for button. However, taking different direction
+/*#execute{
 	font-family: lato;
 	color: #47a3da;
 	font-size: 1.3em;
@@ -165,5 +177,6 @@ h2{
 	border: none;
 	width: 60em;
 	text-align: left;
-	outline: 0;
-}
+	/*outline: 0;*/
+	border: solid black 1px;
+}*/
