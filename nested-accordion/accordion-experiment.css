@@ -17,12 +17,14 @@
 
 
 h1{
+  width: 600px;
   font-family: lato;
   color: #47a3da;
   font-size: 2em;
   /*padding-bottom: 7px;*/
   font-weight: 200;
   padding-left: 100px;
+  border-bottom: solid 1px #DDD;
 }
 
 /*h2{
