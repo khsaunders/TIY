@@ -1,5 +1,6 @@
 //I found this code after days of being hung up on writing some kind of function for my accordion. This was posted on Code Pen.
 //Interestingly, the creator, Will Mitchell, refers to it as a widget. There are bits of code in here that I find both fascinating and really scary.
+//The URL for this code is http://codepen.io/wakamoleguy/pen/lJhys
 
 
 (function () {
