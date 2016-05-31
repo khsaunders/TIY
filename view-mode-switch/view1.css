@@ -51,6 +51,9 @@ table {
 }
 
 /*********END RESET*/
+body{
+  background-color: #fff;
+}
 
 #wrapper{
   width: 60em;
@@ -67,14 +70,12 @@ table {
 }
 
 .fa-th{
-  color: #888;
+  color: #c0c0c0;
   size: 100px;
 
 }
 
 .fa-th-list{
-  /*font-family: FontAwesome;
-  content: f00a;*/
   color: #47a3da;
   size: 100px;
 
@@ -83,6 +84,60 @@ table {
 #label-container{
   padding-left: 35em;
   padding-bottom: 10px;
-  /*border: 2px solid red;*/
   border-bottom: solid #47a3da 3px;
+}
+
+h3{
+  font-family: lato;
+  color: #47a3da;
+  font-weight: 300px;
+}
+
+h4{
+  color: #c0c0c0;
+  font-family: lato;
+  font-weight: 300px;
+}
+
+.pcontainer{
+  max-width:50%;
+  border: solid red 2px;
+  position: absolute;
+  right: 90px;
+}
+
+p{
+  padding-bottom: 15px;
+  padding-top: 7px;
+  font-family: lato;
+  color:  #47a3da;
+  letter-spacing: 1.4px;
+  font-weight: 100px;
+
+}
+
+.product{
+  display: relative;
+  color: #c0c0c0;
+  border: none;
+  font-size: 100px;
+  background-color: #fff;
+  width: 10%;
+}
+
+.product:hover{
+
+}
+
+
+.add{
+  background-color: #47a3da;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  font-family: lato;
+}
+
+.add:hover{
+  border: none;
 }
