@@ -15,9 +15,11 @@ $(function(){
 //Attempt Number 2, after some Googling and note review
 $('.clickme').on('click', function(){
   $(this).text('Sign up, fool!');
-  $('.modal-container').addClass('showing');
+  $('.modal-container, .modal').addClass('showing');
 });
 
+
+
 $('.close, .modal-container').on('click', function(){
-  $('modal-container').removeClass('showing');
+  $('.modal-container, .modal').removeClass('showing');
 });

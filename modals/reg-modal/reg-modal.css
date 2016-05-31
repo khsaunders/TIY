@@ -52,10 +52,18 @@ table {
 
 /*********END RESET*/
 
+#wrapper{
+  width: 60em;
+  margin: auto;
+  padding: 5em;
+
+}
+
 .clickme{
   font-family: sans-serif;;
   color: black;
   background-color: #c0c0c0;
+  margin-bottom: 40px;
 }
 
 .modal-container{
@@ -65,9 +73,9 @@ table {
 
 .modal-container.showing{
   visibility: visible;
-  border: solid 7px #6B7073;
-  max-width: 60%
-
+  border: solid 1px #c0c0c0;
+  max-width: 300px;
+  border-radius: 10px;
 }
 
 .modal{
@@ -76,22 +84,29 @@ table {
 
 .modal.showing{
   visibility: visible;
-  max-width: 40%;
+  width: 250px;
   font-family: lato;
-  font-weight:300;
-  color: black;
-  background-color: #c0c0c0;
+  font-weight: 300px;
+  color: #888;
+  text-align: center;
+  padding: 10px;
 
 }
 
-.fa-times-circle-o{
+/*.fa-times-circle-o{
   visibility: hidden;
 }
 
 .fa-times-circle-o.showing{
 visibility: visible;
-color: black;
+color: black;*/
 
+.close{
+  margin-left: 250px;
+  background-color: red;
+  border-radius: 15px;
+  border-style: hidden;
 
+}
 
 }
