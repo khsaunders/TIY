@@ -4,6 +4,13 @@
   padding: 5em;
 }
 
+.heading{
+  font-family: lato;
+  color: #47a3da;
+  font-size: 2.5em;
+  font-weight:500;
+  left: 30em;
+}
 
 
 h1{
@@ -11,7 +18,7 @@ h1{
   color: #47a3da;
   font-size: 2em;
   /*padding-bottom: 7px;*/
-  font-weight: 400px;
+  font-weight: 200;
 }
 
 /*h2{
@@ -23,9 +30,6 @@ h1{
   border-bottom: solid #DDD 1px;
 }*/
 
-.accordion.js > * {
-  overflow: hidden;
-}
 
 p{
   font-family: lato;
@@ -41,18 +45,22 @@ li{
   margin-left: 50px;
   letter-spacing: 3px;
   font-family: lato, sans-serif;
-
 }
 
+.accordion.js > * {
+  overflow: hidden;
+
+}
+/*The following is the CSS from Will Mitchell's code found on Code Pen. Again, I see some really interesting corresponding classifications with the asterisks and less than signs. I still struggle to understand what specific role those play, but I know it is tied directly to the JS he wrote.  */
 .accordion.js > *:not(.expanded) > *:not(h1) {
-  max-height: 0;
+  max-height: 0; /* Simple restrictions for actual size of drop-down I'm assuming. Because it is hidden here, author intends for its class to be changed in JS */
   margin-top: 0;
   margin-bottom: 0;
   opacity: 0;
   visibility: hidden;
 }
 
-.accordion.js > .expanded > *:not(h1) {
+.accordion.js > .expanded > *:not(h1) { /*The :not(h1) looks like it is excluding h1 from this drop-down action? Did Mitchell have to put this because of the function he wrote in JS? Yet another seemingly unsolvable mystery in Kaitlin's Journey Into JavaScript. */
   max-height: 10em;
   opacity: 1;
   visibility: visible;
