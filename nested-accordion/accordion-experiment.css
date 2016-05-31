@@ -1,0 +1,71 @@
+#wrapper{
+  width: 60em;
+  margin: auto;
+  padding: 5em;
+}
+
+
+
+h1{
+  font-family: lato;
+  color: #47a3da;
+  font-size: 2em;
+  /*padding-bottom: 7px;*/
+  font-weight: 400px;
+}
+
+/*h2{
+  font-family: lato;
+  color: #47a3da;
+  font-size: 1.7em;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  border-bottom: solid #DDD 1px;
+}*/
+
+.accordion.js > * {
+  overflow: hidden;
+}
+
+p{
+  font-family: lato;
+  color: #888;
+  letter-spacing: 1.4px;
+  font-weight: 1px;
+}
+
+li{
+  /*font-family: FontAwesome; //Attempt at putting
+  content: '\f18e';*/
+  color: #47a3da;;
+  margin-left: 50px;
+  letter-spacing: 3px;
+  font-family: lato, sans-serif;
+
+}
+
+.accordion.js > *:not(.expanded) > *:not(h1) {
+  max-height: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.accordion.js > .expanded > *:not(h1) {
+  max-height: 10em;
+  opacity: 1;
+  visibility: visible;
+}
+
+.accordion.js > * > h1 {
+  cursor: pointer;
+  visibility: visible;
+}
+
+.accordion.js > * > *:not(h1) {
+  transition: max-height 1s,
+    visibility 1s,
+    margin 1s,
+    opacity 1s;
+}
