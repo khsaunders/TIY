@@ -100,10 +100,9 @@ h4{
 }
 
 .pcontainer{
-  max-width:50%;
-  border: solid red 2px;
-  position: absolute;
-  right: 90px;
+  padding-top: 20px;
+  max-width:60%;
+  padding-left: 200px;
 }
 
 p{
@@ -117,7 +116,8 @@ p{
 }
 
 .product{
-  display: relative;
+  padding-top: 10px;
+  position: fixed;
   color: #c0c0c0;
   border: none;
   font-size: 100px;
