@@ -73,7 +73,7 @@ table {
 
 .modal-container.showing{
   visibility: visible;
-  border: solid 1px #c0c0c0;
+  border: solid 9px #c0c0c0;
   max-width: 300px;
   border-radius: 10px;
 }
@@ -85,9 +85,9 @@ table {
 .modal.showing{
   visibility: visible;
   width: 250px;
-  font-family: lato;
+  font-family: arial;
   font-weight: 300px;
-  color: #888;
+  color: black;
   text-align: center;
   padding: 10px;
 
