@@ -5,52 +5,54 @@
     <title>Test Accordion</title>
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
-    <link rel = "stylesheet" href = "accordion-experiment.css">
+    <link rel = "stylesheet" href = "nested-accordion2.css">
   </head>
   <body>
     <div id = wrapper>
     <div class = "heading">
       Nested Accordion
     </div>
+
       <section class="accordion">
         <section>
           <div class = "arrow">
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </div>
-          <h1>Lord Marshmallow </h1>
-          <p>Hate dog the dog smells bad so kitty loves pigs yet hide head under blanket so no one can see. Hiss at vacuum cleaner sit by the fire. Use lap as chair sleep on dog bed, force dog to sleep on floor yet meow so rub face on everything kick up litter walk on car leaving trail of paw prints on hood and windshield. Fall over dead (not really but gets sypathy) meow all night having their mate disturbing sleeping humans. Throwup on your pillow dream about hunting birds but please stop looking at your phone and pet me.</p>
-            <ul>
+          <button id = "marshmallow">Lord Marshmallow </button>
+          <p class = "marshmallow-p">Hate dog the dog smells bad so kitty loves pigs yet hide head under blanket so no one can see. Hiss at vacuum cleaner sit by the fire. Use lap as chair sleep on dog bed, force dog to sleep on floor yet meow so rub face on everything kick up litter walk on car leaving trail of paw prints on hood and windshield. Fall over dead (not really but gets sympathy) meow all night having their mate disturbing sleeping humans. Throwup on your pillow dream about hunting birds but please stop looking at your phone and pet me.</p>
+            <ul class = "marshmallow-li">
               <li>HIDE HEAD UNDER BLANKET</li>
               <li>MEOW ALL NIGHT</li>
               <li>THROW UP ON YOUR PILLOW</li>
           </ul>
       </section>
       <section>
-        <div class = "arrow">
+        <div class = "arrow2">
           <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </div>
-        <h1>Colorful Skunk</h1>
-        <p>Leave dead animals as gifts meow. Sniff other cat's butt and hang jaw half open thereafter. Human is washing you why halp oh the horror flee scratch hiss bite eat the fat cats food sit in box but scamper but kitty power! yet burrow under covers, or chase red laser dot. Cat snacks peer out window, chatter at birds, lure them to mouth and eat the fat cats food and pooping rainbow while flying in a toasted bread costume in space so chase imaginary bugs burrow under covers, yet lick the other cats. Brown cats with pink ears missing until dinner time</p>
-        <ul>
-          <li>WHERE TOASTED BREAD COSTUME/li>
+        <button id = "skunk">Colorful Skunk</button>
+        <p class = "skunk-p">Leave dead animals as gifts meow. Sniff other cat's butt and hang jaw half open thereafter. Human is washing you why halp oh the horror flee scratch hiss bite eat the fat cats food sit in box but scamper but kitty power! Cat snacks peer out window, chatter at birds, lure them to mouth and eat the fat cats food and pooping rainbow while flying in a toasted bread costume in space so chase imaginary bugs burrow under covers, yet lick the other cats.</p>
+        <ul class = "skunk-li">
+          <li>WEAR TOASTED BREAD COSTUME</li>
           <li>CHATTER AT BIRDS</li>
           <li>SIT IN BOX</li>
         </ul>
       </section>
       <section>
-        <div class = "arrow">
+        <div class = "arrow3">
           <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </div>
-        <h1>Splendiferous Chomper</h1>
-        <p>Flee in terror at cucumber discovered on floor loves cheeseburgers for shake treat bag cats go for world domination or peer out window, chatter at birds, lure them to mouth, love to play with owner's hair tie. Instantly break out into full speed gallop across the house for no reason burrow under covers. See owner, run in terror please stop looking at your phone and pet me asdflkjaertvlkjasntvkjn (sits on keyboard) meow for food, then when human fills food dish, take a few bites of food and continue meowing.<p>
-          <ul>
-            <li>PLAY WITH OWNER'S HAIR TIES/li>
+        <button id = "chomper">Splendiferous Chomper</button>
+        <p class = "chomper-p">Flee in terror at cucumber discovered on floor loves cheeseburgers for shake treat bag cats go for world domination or peer out window, chatter at birds, lure them to mouth, love to play with owner's hair tie. Instantly break out into full speed gallop across the house for no reason burrow under covers. See owner, run in terror please stop looking at your phone and pet me asdflkjaertvlkjasntvkjn (sits on keyboard) meow for food, then when human fills food dish, take a few bites of food and continue meowing.<p>
+          <ul class = "chomper-li">
+            <li>PLAY WITH OWNER'S HAIR TIES</li>
             <li>FLEE IN TERROR AT CUCUMBER</li>
             <li>MEOW FOR FOOD</li>
           </ul>
       </section>
     </section>
   </div>
-    <script src ="accordion-experiment.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src ="nested-accordion-jquery.js"></script>
   </body>
 </html>
