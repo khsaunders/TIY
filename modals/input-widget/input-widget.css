@@ -70,7 +70,8 @@ body{
 
 button{
   width: 50px;
-  margin: 100px;
+  margin: 15px;
+  margin-left: 150px;
 }
 
 textarea{
