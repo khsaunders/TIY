@@ -13,13 +13,15 @@ $(function(){
 // });
 
 //Attempt Number 2, after some Googling and note review
+
 $('.clickme').on('click', function(){
-  $(this).text('Sign up, fool!');
+  $(this).text('Look forward to hearing from you');//changes text in button
   $('.modal-container, .modal').addClass('showing');
 });
 
 
 
-$('.close, .modal-container').on('click', function(){
+$('.fa').on('click', function(){
   $('.modal-container, .modal').removeClass('showing');
+  console.log('clicked');
 });
